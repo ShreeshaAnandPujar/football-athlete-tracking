@@ -1,0 +1,19 @@
+Experiment,Tracker,Conf,GMC,Match,ReID,HOTA,AssA,IDF1,IDSW,Frag,DetA,MOTA
+Baseline,botsort,0.2,sparseOptFlow,0.8,No,59.863,50.978,68.228,945.0,1542.0,70.429,86.547
+Exp 4: Buffer Sweep,botsort_buffer15,0.2,sparseOptFlow,0.8,No,59.765,50.864,68.199,930.0,1535.0,70.356,86.459
+Exp 4: Buffer Sweep,botsort_buffer45,0.2,sparseOptFlow,0.8,No,59.75,50.836,68.141,957.0,1546.0,70.362,86.412
+Exp 4: Buffer Sweep,botsort_buffer60,0.2,sparseOptFlow,0.8,No,59.816,50.958,68.258,975.0,1579.0,70.346,86.566
+Exp 4: Buffer Sweep,botsort_buffer90,0.2,sparseOptFlow,0.8,No,59.679,50.701,68.048,974.0,1543.0,70.382,86.399
+Exp 5: Confidence Sweep,botsort_conf15,0.15,sparseOptFlow,0.8,No,59.763,50.89,68.038,936.0,1507.0,70.316,86.366
+Exp 5: Confidence Sweep,botsort_conf25,0.25,sparseOptFlow,0.8,No,59.712,50.832,68.16,973.0,1576.0,70.275,86.47
+Exp 5: Confidence Sweep,botsort_conf30,0.3,sparseOptFlow,0.8,No,59.924,51.147,68.864,881.0,1600.0,70.331,86.696
+Exp 5: Confidence Sweep,botsort_conf35,0.35,sparseOptFlow,0.8,No,60.368,51.753,69.569,728.0,1618.0,70.529,86.801
+Exp 6: GMC Sweep,botsort_gmc_none,0.2,none,0.8,No,57.12,47.112,64.275,1099.0,1520.0,69.432,85.382
+Exp 6: GMC Sweep,botsort_gmc_ecc,0.2,ecc,0.8,No,58.769,49.245,66.854,978.0,1510.0,70.278,86.344
+Exp 6: GMC Sweep,botsort_gmc_orb,0.2,ORB,0.8,No,60.109,51.387,69.185,889.0,1536.0,70.425,86.49
+Exp 7: Combined Champion,botsort_conf35_orb,0.35,ORB,0.8,No,60.652,52.23,70.289,720.0,1585.0,70.532,86.799
+Exp 7: Upper Conf Boundary,botsort_conf40,0.4,sparseOptFlow,0.8,No,60.255,51.697,69.67,654.0,1666.0,70.336,86.653
+Exp 7: Upper Conf Boundary,botsort_conf45,0.45,sparseOptFlow,0.8,No,60.293,52.102,70.157,606.0,1737.0,69.875,86.229
+Exp 8: Match Thresh Sweep,botsort_conf35_orb_match75,0.35,ORB,0.75,No,60.094,51.326,69.135,811.0,1601.0,70.48,86.699
+Exp 8: Match Thresh Sweep,botsort_conf35_orb_match85,0.35,ORB,0.85,No,60.618,52.204,70.615,693.0,1605.0,70.489,86.829
+Exp 9: ReID Direct Comparison,botsort_conf35_orb_match85_reid,0.35,ORB,0.85,Yes,59.402,50.173,68.911,815.0,1660.0,70.44,86.683

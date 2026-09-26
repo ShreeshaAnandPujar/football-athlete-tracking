@@ -1,0 +1,58 @@
+{
+  "match_name": "liverpool",
+  "total_tracks": 552,
+  "total_detections": 44935,
+  "team_classification": {
+    "team_a_tracks": 327,
+    "team_b_tracks": 122,
+    "referee_gk_tracks": 103
+  },
+  "formations": {
+    "team_a": {
+      "formation": "4-3-3",
+      "detected_line_counts": [
+        29,
+        58,
+        31
+      ],
+      "line_str": "29-58-31",
+      "confidence": 0.2,
+      "n_outfield_analyzed": 118
+    },
+    "team_b": {
+      "formation": "4-3-3",
+      "detected_line_counts": [
+        24,
+        22,
+        17
+      ],
+      "line_str": "24-22-17",
+      "confidence": 0.2,
+      "n_outfield_analyzed": 63
+    }
+  },
+  "physical_workload": {
+    "team_a_total_distance_m": 4990.56,
+    "team_b_total_distance_m": 3033.23,
+    "team_a_sprint_distance_m": 3471.54,
+    "team_b_sprint_distance_m": 2059.93,
+    "furthest_player": {
+      "track_id": 1790,
+      "distance_m": 123.62,
+      "team_id": 2
+    },
+    "fastest_player": {
+      "track_id": 1039,
+      "top_speed_kmh": 41.4,
+      "team_id": 2
+    }
+  },
+  "tactical_geometry": {
+    "team_a_avg_compactness_m2": 1818.14,
+    "team_b_avg_compactness_m2": 1122.56,
+    "team_a_avg_width_m": 38.51,
+    "team_b_avg_width_m": 32.63,
+    "team_a_avg_length_m": 78.29,
+    "team_b_avg_length_m": 69.85
+  }
+}

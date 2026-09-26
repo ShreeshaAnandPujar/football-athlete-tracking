@@ -1,0 +1,50 @@
+{
+  "benchmark_name": "SoccerNet Tracking-2023 Validation (12 Sequences, 9000 Frames)",
+  "date_frozen": "2026-09-20",
+  "detector": {
+    "architecture": "YOLOv8s",
+    "dataset": "SoccerNet tracking-2023",
+    "epochs": 20,
+    "imgsz": 640,
+    "confidence_threshold": 0.35,
+    "weights": "runs/detect/outputs/training/yolov8s_soccernet_baseline/weights/best.pt"
+  },
+  "official_final_champion": {
+    "tracker_type": "BoT-SORT",
+    "gmc_method": "ORB",
+    "match_thresh": 0.85,
+    "track_buffer": 30,
+    "with_reid": false,
+    "config_file": "src/tracking/botsort_conf35_orb_match85.yaml",
+    "metrics": {
+      "HOTA": 60.618,
+      "DetA": 70.489,
+      "AssA": 52.204,
+      "IDF1": 70.615,
+      "MOTA": 86.829,
+      "IDSW": 693,
+      "Frag": 1605,
+      "CLR_Re": 90.225,
+      "CLR_Pr": 96.812
+    }
+  },
+  "hota_oriented_alternative": {
+    "tracker_type": "BoT-SORT",
+    "gmc_method": "ORB",
+    "match_thresh": 0.80,
+    "track_buffer": 30,
+    "with_reid": false,
+    "config_file": "src/tracking/botsort_conf35_orb.yaml",
+    "metrics": {
+      "HOTA": 60.652,
+      "DetA": 70.532,
+      "AssA": 52.230,
+      "IDF1": 70.289,
+      "MOTA": 86.799,
+      "IDSW": 720,
+      "Frag": 1585,
+      "CLR_Re": 90.135,
+      "CLR_Pr": 96.889
+    }
+  }
+}

@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Datasets and large media files
+data/raw/
+data/processed/
+data/videos/
+*.mp4
+*.avi
+*.mkv
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Output directories
+outputs/detections/
+outputs/tracking/
+outputs/videos/
+outputs/analytics/trajectories/
+outputs/analytics/*.csv
+outputs/analytics/demo_run/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+temp/
+runs/
+outputs/evaluation/**/*.zip
+outputs/evaluation/**/build*/
+outputs/evaluation/**/temp_*/
+outputs/evaluation/**/zip_build/
+outputs/evaluation/**/tracker_zip/
